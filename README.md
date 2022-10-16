@@ -15,5 +15,11 @@ for querying use find()
 ```
 use <database-name>
 db.createCollection(<collecion-name>, field: <type>...)
-db.find()
+db.collection.find()
 ```
+Objectd creates a new id for each insertion.
+https://www.mongodb.com/docs/manual/reference/method/ObjectId/
+
+id
+fields:
+
